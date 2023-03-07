@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <link rel="icon" href="img/night.jpeg">
+  <a href="intro.html">Introduction</a>
+  <a href="Links.html">Links</a>
+  <a href="images.html">Images</a>
+  <a href="HTML%20CSS.html">CSS</a>
+  <a href="Courses.html">Courses</a>
+  <a href="List.html">List</a>
+  <a href="divs.html">Divs</a>
+  <a href="table.html">Table</a>
+  <a href="iframe.html">Location</a>
+  <style>
+    body{background-color: chartreuse}
+    h2{text-align: center;
+      color: #555555;
+      background-color: blue;
+      font-size: xx-large;
+      border: 3px solid deepskyblue;
+      padding: 10px;
+      margin: 10px;}
+    form{color: black;
+      font-style: italic;
+      font-family: "DejaVu Sans";
+      font-size: larger;
+      background-color: red;
+      border: 4px solid black;
+      border-radius: 15px;
+      box-shadow: 2px 2px blue;}
+    input{color: blue;
+      background-color: lightseagreen;
+      font-style: italic;
+      border: dodgerblue 2px solid;
+      border-radius: 20px;}
+    label:hover{
+      box-shadow: 2px 2px  blue;
+      font-size: large;}
+    button{box-shadow: 3px 3px fuchsia;
+      font-size: larger;
+      font-style: italic;
+      font-family: "DejaVu Serif";
+      background-color: black;
+      color: red;
+      border-radius: 15px;
+      alignment: center;}
+  </style>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="iframe.html" method="post">
+  <label for="fname">Full name</label>
+  <input type="text" id="fname" placeholder="Enter Your Name"><br>
+  <label for="emailaddress">Email address</label>
+  <input type="email" id="emailaddress" placeholder="Enter Your Email"><br>
+  <label for="phone">Phone No</label>
+  <input type="text" id="phone" placeholder="Enter Your Phone No"><br>
+  <label for="Private High school"> Private High School</label>
+  <input type="radio" id="Private High school" name="Type of School"><br>
+  <label for="National High school">National High School</label>
+  <input type="radio" id="National High school" name="Type of School"><br>
+  <label for="DOB">Date of Birth</label>
+  <input type="date" id="DOB"><br>
+  <label for="Registration Date">Registration Date</label>
+  <input type="date" id="Registration Date" placeholder="Enter Your Date of Registration"><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender"><br>
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="gender"><br>
+  <label for="Courses">Course Taken</label>
+  <select name="Course" id="Courses">
+    <option value="Javascript">Javascript</option>
+    <option value="Python">Python</option>
+    <option value="Android">Android</option>
+    <option value="Full Stack Software Development">Full Stack Software Development</option>
+    <option value="Cyber Security">Cyber Security</option>
+    <option value="Data Security">Data Security</option>
+    <option value="Data Science">Data Science</option>
+  </select><br>
+  <label for="image">Upload picture</label>
+  <input type="file" id="image"><br>
+  <label for="password">Password</label>
+  <input type="password" id="password" name="nenosiri" placeholder="Enter Your Password "><br>
+  <input type="submit" value="Register Here!!!"><br>
+</form>
+<button type="button" onclick="alert('Safari Lab Morning Class')"> Bonyeza</button>
+</body>
+</html>
